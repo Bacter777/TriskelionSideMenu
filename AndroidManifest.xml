@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bacter.residemenu">
+
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-feature android:name="android.hardware.camera2"/>
+    <uses-feature android:name="android.hardware.camera2.flash"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".menu.activity.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menu.activity.MenuActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity android:name=".menu.activity.CalendarActivity" />
+        <activity android:name=".menu.activity.AboutPage" />
+        <activity android:name=".menu.activity.CebuCityCouncil" />
+    </application>
+</manifest>

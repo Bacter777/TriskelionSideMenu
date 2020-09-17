@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pressed_changelog">#CC8AB6E7</color>
+    <!-- Purchase -->
+    <color name="demo_purchase_normal">#ececec</color>
+    <color name="demo_purchase_pressed">#CC2A84A5</color>
+    <!-- Material -->
+    <color name="body_text_1">#de000000</color>
+    <color name="body_text_2">#8a000000</color>
+    <color name="body_text_3">#60000000</color>
+    <color name="body_text_disabled">#44000000</color>
+    <color name="theme_accent_1">#2a36b1</color>
+    <color name="body_text_1_inverse">#deffffff</color>
+    <color name="body_text_2_inverse">#8affffff</color>
+    <color name="navdrawer_background">#ffffffff</color>
+    <color name="navdrawer_text_color">@color/body_text_1</color>
+    <color name="navdrawer_text_color_selected">@color/theme_accent_1</color>
+    <color name="navdrawer_icon_tint">#808080</color>
+    <color name="navdrawer_icon_tint_selected">@color/theme_accent_1</color>
+    <color name="primary">#4CAF50</color>
+    <color name="primary_dark">#388E3C</color>
+    <color name="primary_light">#C8E6C9</color>
+    <color name="accent">#795548</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+</resources>

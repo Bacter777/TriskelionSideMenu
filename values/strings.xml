@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Triskelion</string>
+    <string name="menu_bar">Menu</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="swipe_ins">Swipe Right/Left to Open Menu Drawer</string>
+    <string name="about_app">Triskelion Side Menu is a concept of ResideMenu from iOS 7/8 Style Side Menu.\nThe visual effect is partly referred to iOS version of ResideMenu.</string>
+    <string name="pref_title">Color Picker</string>
+    <string name="dev">Developed by: BdFreak</string>
+    <string-array name="websites">
+        <item>Facebook</item>
+        <item>Gitgub</item>
+    </string-array>
+    <string-array name="links">
+        <item>https://facebook.com/BdFreak777</item>
+        <item>https://github.com/Bacter777</item>
+    </string-array>
+    <string name="prompt_info_title">Sample App Authentication</string>
+    <string name="prompt_info_subtitle">Please login to get access</string>
+    <string name="prompt_info_description">Sample App is using Android biometric authentication</string>
+    <string name="prompt_info_use_app_password">Use app password</string>
+    <string name="auth">Authenticate with Fingerprint</string>
+    <string name="bio">Added Biometric Authentication.</string>
+    <string name="current_acceleration">Current Acceleration</string>
+</resources>

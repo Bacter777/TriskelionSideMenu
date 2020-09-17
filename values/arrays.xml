@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="link_entries">
+        <item>Facebook</item>
+        <item>Github</item>
+    </string-array>
+    <string-array name="link_values">
+        <item>https://facebook.com/BdFreak777</item>
+        <item>https://github.com/Bacter777</item>
+    </string-array>
+</resources>

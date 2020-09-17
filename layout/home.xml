@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <com.flaviofaria.kenburnsview.KenBurnsView
+            android:id="@+id/bacter_ahuk_burns"
+            android:layout_width="match_parent"
+            android:layout_height="719dp"
+            android:layout_centerInParent="true"
+            android:fitsSystemWindows="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cpc" />
+    </RelativeLayout>
+</FrameLayout>

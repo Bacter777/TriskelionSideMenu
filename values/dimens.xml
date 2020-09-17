@@ -1,0 +1,33 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="hex_color_width_bigger">110dp</dimen>
+    <dimen name="hex_color_width_smaller">90dp</dimen>
+    <dimen name="calendar_size_small">100dp</dimen>
+    <dimen name="tile_size_medium">32dp</dimen>
+    <dimen name="tile_size_small">16dp</dimen>
+    <dimen name="space_1x">8dp</dimen>
+    <dimen name="space_2x">16dp</dimen>
+    <dimen name="space_3x">24dp</dimen>
+    <dimen name="space_4x">32dp</dimen>
+    <dimen name="space_5x">40dp</dimen>
+    <dimen name="space_6x">48dp</dimen>
+    <dimen name="space_7x">56dp</dimen>
+    <dimen name="space_8x">64dp</dimen>
+    <dimen name="common_padding">5dp</dimen>
+    <dimen name="day_of_week_padding_vertical">@dimen/space_1x</dimen>
+    <dimen name="day_padding_vertical">@dimen/space_1x</dimen>
+    <dimen name="month_name_padding">@dimen/space_1x</dimen>
+    <!--        FONTS DIMEN           -->
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_medium">14sp</dimen>
+    <dimen name="text_big">16sp</dimen>
+    <dimen name="text_large">18sp</dimen>
+    <dimen name="standard_padding">32dp</dimen>
+    <dimen name="seekbar_margin">4dp</dimen>
+    <dimen name="seekbar_holo_width">4dp</dimen>
+    <dimen name="seekbar_size_large">200dp</dimen>
+    <dimen name="seekbar_size_small">120dp</dimen>
+    <dimen name="seekbar_size_small_ellipse">120dp</dimen>
+</resources>
