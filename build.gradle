@@ -1,27 +1,54 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
-buildscript {
-    ext.kotlin_version = '1.4.10'
-    repositories {
-        google()
-        jcenter()
-        mavenCentral()
-    }
-    dependencies {
-        classpath "com.android.tools.build:gradle:4.0.1"
+apply plugin: 'com.android.application'
 
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        applicationId "com.bacter.residemenu"
+        minSdkVersion 22
+        //noinspection OldTargetApi
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            multiDexEnabled true
+        }
+    }
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+    flavorDimensions 'release'
 }
 
-allprojects {
-    repositories {
-        google()
-        jcenter()
-        maven { url "https://jitpack.io" }
-    }
-}
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation 'androidx.preference:preference:1.1.1'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.fragment:fragment:1.3.0-alpha08'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    //ResideMenu
+    implementation 'com.specyci:residemenu:1.6'
+    implementation 'com.diegodobelo.expandingview:expanding-view:0.9.4'
+    //Custom Alert
+    implementation 'com.github.mirshahbazi:CustomAlertViewDialogue:2.3.1'
+    //calendar
+    implementation 'com.github.mahendramahi:CalendarView:1.0'
+    //kenburnsview
+    implementation 'com.flaviofaria:kenburnsview:1.0.7'
+    //biometric
+    implementation 'androidx.biometric:biometric:1.1.0-alpha02'
 }
